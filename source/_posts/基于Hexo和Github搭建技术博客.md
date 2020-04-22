@@ -92,6 +92,10 @@ deploy:
 
    `hexo d`
 
+   或者直接
+
+   `hexo g -d`
+
    如果此时报错你可以输入`npm install hexo-deployer-git --save`来解决
 
 4. 以上都没什么问题的话，访 http://SkytechMobile.github.io/ 就能看到自己的博客了
@@ -136,7 +140,13 @@ language: zh-Hans      // 语言
 
 执行上面的命令即在`source/_posts/`目录下新建了名为`xxx的md文件`和`资源文件夹`
 
-### 二、写博客注意点
+###二、将本地博客发布到线上
+
+生成静态文件，并将本地文件发布到github上，合并执行
+
+`hexo g -d`
+
+### 三、写博客注意点
 
 1. 如何上传带图片的博客？
 
