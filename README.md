@@ -35,4 +35,4 @@ comments: true
 
 6. 上传博客，提交到远程
 
-`hexo g -d`
+   `hexo g -d`
